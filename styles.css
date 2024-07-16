@@ -1,0 +1,48 @@
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+#instructions-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+#overallWinner {
+ display: none;
+}
+
+#score-container {
+ display: none;
+ align-items: center;
+ justify-content: space-evenly;
+}
+
+#computerScoreContainer, #humanScoreContainer {
+ text-align: center;
+ margin: 20px 10px;
+}
+
+#game-container {
+ display: none;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+svg {
+ width: 100px;
+ max-height: 100px;
+}
+
+button {
+ cursor: pointer;
+}
+
+#gameReset {
+ display: none;
+}
